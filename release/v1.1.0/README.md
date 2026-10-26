@@ -34,4 +34,4 @@ SHA-256：
 4A246B1A6E7037C51620C41EB60DDD21A63897F019034DED1C2546D241576216  Cutmind_1.1.0_x64_en-US.msi
 ```
 
-文件尚未上传 GitHub Release。发布时使用本目录下 Cutmind 命名的附件，并在 README 写入实际下载链接；不上传旧“脑闸”安装包，不覆盖历史文件。
+本版本已[正式发布至 GitHub Release](https://github.com/Lucian-D-W/Cutmind/releases/tag/v1.1.0)，提供 [EXE](https://github.com/Lucian-D-W/Cutmind/releases/download/v1.1.0/Cutmind_1.1.0_x64-setup.exe) 和 [MSI](https://github.com/Lucian-D-W/Cutmind/releases/download/v1.1.0/Cutmind_1.1.0_x64_en-US.msi)。上述 SHA-256 与 GitHub 附件摘要一致。

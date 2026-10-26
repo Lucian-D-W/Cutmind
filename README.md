@@ -73,7 +73,7 @@
 
 适用于 **Windows x64**，版本 **1.1.0**。
 
-1. **安装并打开。** 下载 `Cutmind_1.1.0_x64-setup.exe`，运行安装程序，然后从开始菜单打开 Cutmind（脑闸）。日常使用无需安装 Node.js、Rust 或其他开发工具。
+1. **安装并打开。** 下载 [Cutmind_1.1.0_x64-setup.exe](https://github.com/Lucian-D-W/Cutmind/releases/download/v1.1.0/Cutmind_1.1.0_x64-setup.exe)，运行安装程序，然后从开始菜单打开 Cutmind（脑闸）。日常使用无需安装 Node.js、Rust 或其他开发工具。
 2. **先记录想法。** 按默认快捷键 `Ctrl+Shift+I` 打开想法盒子，写下想到的事情。
 3. **把想法转换成任务。** 选中准备处理的文字，右键选择“选中文字 → 创建任务”，打开对应的任务窗口。
 4. **开始一轮工作。** 在桌面任务窗口补充本轮准备做的具体内容，选择时长并点击“开始”。

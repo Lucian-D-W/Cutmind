@@ -73,7 +73,7 @@ To take your records into your own note-taking tools, export them as Markdown, J
 
 For **Windows x64**, version **1.1.0**.
 
-1. **Install and open.** Download `Cutmind_1.1.0_x64-setup.exe`, run the installer, and open Cutmind (脑闸) from the Start menu. Everyday use does not require Node.js, Rust, or other development tools.
+1. **Install and open.** Download [Cutmind_1.1.0_x64-setup.exe](https://github.com/Lucian-D-W/Cutmind/releases/download/v1.1.0/Cutmind_1.1.0_x64-setup.exe), run the installer, and open Cutmind (脑闸) from the Start menu. Everyday use does not require Node.js, Rust, or other development tools.
 2. **Capture an idea first.** Press the default shortcut `Ctrl+Shift+I` to open the Idea Box and write down what comes to mind.
 3. **Turn the idea into a task.** Select the text you want to work on, right-click, and choose “Selected text → Create task” to open its task window.
 4. **Start a work session.** Add what you intend to do in this session to the desktop task window, choose a duration, and click “Start.”
