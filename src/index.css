@@ -1,0 +1,103 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-primary: #1a1a2e;
+  --bg-secondary: #16213e;
+  --bg-card: #0f3460;
+  --text-primary: #eaeaea;
+  --text-secondary: #a0a0b0;
+  --accent: #e94560;
+  --accent-green: #6bcb77;
+  --radius: 8px;
+  --shadow: 0 4px 24px rgba(0,0,0,0.4);
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+
+.task-window-surface > * {
+  flex-shrink: 0;
+}
+
+.task-window-surface img,
+.task-window-surface pre {
+  max-width: 100%;
+}
+
+.task-window-surface pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  scrollbar-color: rgba(140, 123, 104, 0.55) rgba(219, 210, 198, 0.55);
+}
+
+[data-tauri-decorum-tb] {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+  background: linear-gradient(180deg, rgba(255,255,255,0.14), rgba(255,255,255,0));
+}
+
+button.decorum-tb-btn,
+button#decorum-tb-minimize,
+button#decorum-tb-maximize,
+button#decorum-tb-close {
+  position: relative;
+  z-index: 1;
+  color: rgba(24, 22, 28, 0.82);
+}
+
+button.decorum-tb-btn:hover,
+button#decorum-tb-minimize:hover,
+button#decorum-tb-maximize:hover {
+  background-color: rgba(255,255,255,0.24) !important;
+}
+
+button#decorum-tb-close:hover {
+  background-color: rgba(255, 102, 102, 0.88) !important;
+}
+
+input, textarea, button {
+  font-family: inherit;
+}
+
+[contenteditable="true"][data-empty="true"]::before {
+  content: attr(data-placeholder);
+  color: rgba(255, 255, 255, 0.45);
+  pointer-events: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(219, 210, 198, 0.55);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(140, 123, 104, 0.55);
+  border-radius: 999px;
+  border: 2px solid rgba(219, 210, 198, 0.55);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(96, 87, 76, 0.72);
+}

@@ -1,0 +1,53 @@
+[[permission]]
+identifier = "allow-create-window"
+description = "Allow create_window command"
+commands.allow = ["create_window"]
+
+[[permission]]
+identifier = "allow-close-window"
+description = "Allow close_window command"
+commands.allow = ["close_window"]
+
+[[permission]]
+identifier = "allow-load-store"
+description = "Allow load_store command"
+commands.allow = ["load_store"]
+
+[[permission]]
+identifier = "allow-save-store"
+description = "Allow save_store command"
+commands.allow = ["save_store"]
+
+[[permission]]
+identifier = "allow-list-system-fonts"
+description = "Allow list_system_fonts command"
+commands.allow = ["list_system_fonts"]
+
+[[permission]]
+identifier = "allow-update-shortcuts"
+description = "Allow update_shortcuts command"
+commands.allow = ["update_shortcuts"]
+
+[[permission]]
+identifier = "allow-sync-idea-tray-menu"
+description = "Allow sync_idea_tray_menu command"
+commands.allow = ["sync_idea_tray_menu"]
+
+[[permission]]
+identifier = "allow-write-daily-journal-file"
+description = "Allow write_daily_journal_file command"
+commands.allow = ["write_daily_journal_file"]
+
+[[set]]
+identifier = "allow-all"
+description = "Allow all custom app commands"
+permissions = [
+  "allow-create-window",
+  "allow-close-window",
+  "allow-load-store",
+  "allow-save-store",
+  "allow-list-system-fonts",
+  "allow-update-shortcuts",
+  "allow-sync-idea-tray-menu",
+  "allow-write-daily-journal-file",
+]

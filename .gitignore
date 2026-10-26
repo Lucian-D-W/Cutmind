@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+src-tauri/target/
+
+# Local agent/runtime scratch space
+.codex-runtime/
+.codex-temp/
+.shujuan/
+shujuan.sqlite
+.tmp-*
+tmp-*.log
+tauri-*.log
+tauri-*.out
+tauri-*.err
+vite-standalone.*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.ai/
+__pycache__/
+*.pyc
+.coverage
+coverage-*.json
+coverage-*.data
+.gitnexus
+
+# Generated CodeGraph state; keep project configuration eligible for tracking.
+.codegraph/codegraph.db
+.codegraph/codegraph.db-shm
+.codegraph/codegraph.db-wal
+.codegraph/daemon.pid

@@ -1,0 +1,22 @@
+Cutmind — source repository
+Copyright (C) 2026 Lucian W. (lucian-d-w)
+
+Unless a file or third-party notice states otherwise, project-authored source
+code, documentation, and the author's original brain-and-gate artwork are
+licensed under the GNU General Public License as published by the Free Software
+Foundation, version 3 only (SPDX-License-Identifier: GPL-3.0-only).
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See LICENSE for the complete GNU GPL version 3 text.
+
+The "or any later version" option is not granted for this project. The standard
+license document's example application notices do not change this grant.
+
+Third-party dependencies retain their respective copyrights and licenses.
+Local provider-generated companion instructions in CLAUDE.md and .claude/ are
+separate tooling material, are not covered by the project GPL grant, and are not
+included in the prepared public source snapshot.
+Alibaba PuHuiTi font binaries kept in the author's local checkout are separate
+third-party assets, are not covered by this GPL grant, and are not included in
+the prepared public source snapshot. See THIRD_PARTY_NOTICES.md and fonts/README.md.

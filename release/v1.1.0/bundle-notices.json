@@ -1,0 +1,7 @@
+{
+  "bundle": {
+    "resources": {
+      "../release/v1.1.0/notices/": "licenses/"
+    }
+  }
+}
